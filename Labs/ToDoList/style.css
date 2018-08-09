@@ -1,12 +1,16 @@
 .container
 {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;
+	display: grid;
+	grid-column-gap: 100px;
+	grid-template-columns: 300px 500px;
+	justify-content: center;
+	align-content: center;
 }
 
-.container > div 
+.item
 {
+	display: inline-flex;
+	
 }
 
 ol li button
